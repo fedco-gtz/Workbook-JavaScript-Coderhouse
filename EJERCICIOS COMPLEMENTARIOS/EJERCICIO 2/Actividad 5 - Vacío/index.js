@@ -1,11 +1,18 @@
-let precioUno = prompt("Ingresa el valor del primer producto");
-let precioDos = prompt("Ingresa el valor del segundo producto");
-let precioTres = prompt("Ingresa el valor del tercer producto");
+let productoUno = prompt("Ingresar el primer producto de almacen");
+let productoDos = prompt("Ingresar el segundo producto de almacen");
+let productoTres = prompt("Ingresar el tercer producto de almacen");
+let productoCuatro = prompt("Ingresar el cuarto producto de almacen");
 
-const descuentoUno = precioUno - (20*100)/precioUno;
-const descuentoDos = precioDos - (30*100)/precioDos;
-const descuentoTres = precioTres -  (40*100)/precioTres;
-
-console.log("El precio del primer producto es de " + precioUno + " y se le aplica un descuento del 20%, quedando en " + descuentoUno);
-console.log("El precio del segundo producto es de " + precioDos + " y se le aplica un descuento del 30%, quedando en " + descuentoDos);
-console.log("El precio del tercer producto es de " + precioTres + " y se le aplica un descuento del 40%, quedando en " + descuentoTres);
+if ((productoUno != "") && (productoDos != "") && (productoTres != "") && (productoCuatro != "")) {
+    console.log("1- " + productoUno + " " +
+    "2- " + productoDos + " " + 
+    "3- " + productoTres + " " +
+    "4- " + productoCuatro);
+    alert("1- " + productoUno + " " +
+    "2- " + productoDos + " " + 
+    "3- " + productoTres + " " +
+    "4- " + productoCuatro);
+} else {
+    console.log("Error: Es necesario cargar todos los productos");
+    alert("Error: Es necesario cargar todos los productos");
+}
