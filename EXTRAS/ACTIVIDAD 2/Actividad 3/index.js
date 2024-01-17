@@ -1,17 +1,22 @@
 let sesion = prompt("¿Inicio sesión?");
 
-if (sesion == "si" || sesion == "SI" || sesion == "Si") {
-    console.log("Bienvenido");
-    // alert("Bienvenido");
-} else if (sesion == "no" || sesion == "NO" || sesion == "No") {
+sesion = sesion.toUpperCase();
+
+if (sesion === "SI") {
+    console.log("Sesión iniciada");
+    // alert("Sesión iniciada");
+} else if (sesion === "NO") {
     console.log("Recuerde iniciar sesión");
     // alert("Recuerde iniciar sesión");
 } else if (sesion == "") {
     console.log("Error");
     // alert("Error");
-}
+} else {
+    console.log("Error");
+    // alert("Error");
+};
 
-/* RESOLUCIÓN COMPAÑERO
+/* RESOLUCIÓN COMPAÑERO NICOLÁS RAFFONAUD
 
 let login = true;
 

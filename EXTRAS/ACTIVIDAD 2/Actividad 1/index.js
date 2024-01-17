@@ -10,7 +10,7 @@ if ((edad >= 18) && (registro == "si" || registro == "SI" || registro == "Si")) 
 }
 
 
-/* RESOLUCIÓN COMPAÑERO 
+/* RESOLUCIÓN COMPAÑERO NICOLÁS RAFFONAUD 
 
 let registro = false;
 let mayorDeEdad = true;
