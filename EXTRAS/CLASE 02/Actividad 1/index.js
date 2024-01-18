@@ -1,7 +1,7 @@
 let edad = prompt("Ingrese su edad");
-const registro = prompt("¿Estas registrado?");
+const REGISTRO = prompt("¿Estas registrado?");
 
-if ((edad >= 18) && (registro == "si" || registro == "SI" || registro == "Si")) {
+if ((edad >= 18) && (REGISTRO == "si" || REGISTRO == "SI" || REGISTRO == "Si")) {
     console.log("BIENVENIDO");
     // alert("BIENVENIDO");
 } else {
