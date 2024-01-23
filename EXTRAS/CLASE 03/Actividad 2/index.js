@@ -1,11 +1,13 @@
 let numero = prompt("Ingresa un número entre 1 y 10");
-
+let intento = "";
 let numeroAleatorio = Math.random();
 let adivinar = Math.floor(numeroAleatorio * 10) + 1;
+
 
 console.log(adivinar);
 
 while (adivinar != numero) {
+    intento++;
     if (numero <= adivinar - 3) {
         console.log("El numero ingresado es muy chico, proba con otro numero");
         alert("El numero ingresado es muy chico, proba con otro numero")
@@ -21,7 +23,10 @@ while (adivinar != numero) {
 }
 
 while (adivinar = numero){
+    intento++;
     console.log("¡ADIVINASTE EL NÚMERO!");
+    console.log("LO HICISTE EN " + intento + " INTENTOS");
         alert("¡ADIVINASTE EL NÚMERO!");
+        alert("LO HICISTE EN " + intento + " INTENTOS");
         break;
 }

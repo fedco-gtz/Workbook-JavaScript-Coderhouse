@@ -7,4 +7,5 @@ for (let i = 1; i <= 50; i++) {
    }
 };  
 
+console.log("La suma de los numeros pares entre 1 y 50 es: " + suma);
 // alert("La suma de los numeros pares entre 1 y 50 es: " + suma);
