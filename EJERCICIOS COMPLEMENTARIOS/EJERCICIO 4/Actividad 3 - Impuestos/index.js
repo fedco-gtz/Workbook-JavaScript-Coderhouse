@@ -4,7 +4,6 @@ for (let i = 0; i < 5; i++) {
 
     if (!isNaN(impuesto) && !isNaN(porcentaje)) {
         let resultado = totalImpuesto(impuesto, porcentaje);
-
         console.log("El impuesto " + (i+1) + " tiene un valor de $" + impuesto + " y un interes del " + porcentaje + " dando un total a abonar de: $" + resultado);
     } else {
         console.log("Error: Debes ingresar datos validos en el impuesto " + (i + 1));
