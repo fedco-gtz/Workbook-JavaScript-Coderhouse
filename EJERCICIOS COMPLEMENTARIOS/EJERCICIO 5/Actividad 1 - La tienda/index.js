@@ -4,10 +4,10 @@ class Tienda {
         this.direccion = direccion;
         this.propietario = propietario;
         this.rubro = rubro;
-    }
+    };
     imprimir() {
         console.log(`La tienda se llama ${this.nombre} se encuentra en ${this.direccion}, su propietario es ${this.propietario} y se dedican al rubro ${this.rubro}`);
-    }
+    };
 };
 
 const TIENDA_UNO = new Tienda ("Gasolero", "Quilmes 1514", "Federico", "Kiosco");
