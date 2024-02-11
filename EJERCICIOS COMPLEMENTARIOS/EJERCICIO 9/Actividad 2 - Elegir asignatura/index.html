@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 2 - Elegir asignatura</title>
 </head>
+
 <body>
     <h1>Actividad 2 - Elegir asignatura</h1>
-    <p></p>
+    <p>Declarar un array con nombres de asignatura, y generar un select, donde los values de las etiquetas option sean
+        la posición de la asignatura en la colección.Luego, escuchar el evento change sobre el select, asegurando que la
+        función manejadora dispare una salida en el HTML, especificando el elemento escogido por el usuario.</p>
+
+    <select id="selectAsignatura">
+        <option value="-1">Seleccione una asignatura</option>
+    </select>
+
+    <div id="output"></div>
 </body>
 <script src="index.js"></script>
+
 </html>
