@@ -1,0 +1,14 @@
+#container {
+    text-align: center;
+  }
+  
+  #resultContainer {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  #myImage {
+    margin-top: 20px;
+    display: none; 
+  }
+  

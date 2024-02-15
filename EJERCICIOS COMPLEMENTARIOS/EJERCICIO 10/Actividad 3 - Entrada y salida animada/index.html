@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 3 - Entrada y salida animada</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <h1>Actividad 3 - Entrada y salida animada</h1>
-    <p></p>
+    <p>Incluir un input, un contenedor, y una imagen manipulando el DOM. Luego realizar una o más animaciones sobre la
+        imagen, al detectar un cambio de valor en el input, procesando el valor ingreso, y efectuando un salida en el
+        contenedor con el resultado. La salida mencionada debe destacarse usando una animación. Es necesario emplear
+        métodos de jQuery.</p>
+    <div id="container">
+        <input type="number" id="inputNumber" placeholder="Ingrese un número">
+        <div id="resultContainer">Resultado: <span id="result"></span></div>
+        <img src="logo.png" alt="Imagen" id="myImage">
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
 </html>

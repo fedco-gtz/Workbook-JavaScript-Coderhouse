@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 4 - Interfaz animada</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <h1>Actividad 4 - Interfaz animada</h1>
-    <p></p>
+    <p>Incluir una estructura HTML manipulando el DOM, la cual contenga al menos dos radio buttons. Luego, escuchar el
+        evento click sobre los botones de la interfaz, y disparar diferentes animaciones por cada elemento. Si las
+        animaciones se realizan sobre la misma imagen o contenedor, se recomienda establecer un control sobre los
+        botones, para evitar que las animaciones se superpongan. Es necesario emplear métodos de jQuery.</p>
+    <div id="container">
+        <input type="radio" name="animation" id="animation1" value="fadeIn"> <label for="animation1">Animación 1</label>
+        <input type="radio" name="animation" id="animation2" value="slideToggle"> <label for="animation2">Animación
+            2</label>
+        <div id="imageContainer">
+            <img src="logo.png" alt="Imagen" id="myImage">
+        </div>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
 </html>

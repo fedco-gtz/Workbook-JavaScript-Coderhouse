@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 3 - Interactuar con HTML</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1>Actividad 3 - Interactuar con HTML</h1>
@@ -20,7 +21,17 @@
     <h2>Ejemplo</h2>
     <p>✓ Podemos crear elementos HTML en función del listado de nuestros objetos identificados en la clase 6.
     <br>✓ Establecer un mensaje de bienvenida aleatorio usando un array de mensajes.
-    <br>✓ Capturar una o màs entradas por promp() y mostrarlas en el HTML, modificando el DOM</p>
+    <br>✓ Capturar una o más entradas por promp() y mostrarlas en el HTML, modificando el DOM</p>
+
+    <h1>Comparador de Precios de Pasajes Aéreos</h1>
+    <div id="input-cantidad-empresas">
+        <label for="cantidad-empresas">Cantidad de empresas a comparar (entre 2 y 5):</label>
+        <input type="number" id="cantidad-empresas" min="2" max="5" step="1">
+        <button onclick="crearInputsEmpresas()">Aceptar</button>
+    </div>
+    <div id="contenedor-empresas"></div>
+    <div id="boton-comparar-precios"></div>
+    <div id="mensaje-precio">Mensaje de precio</div>
 
 </body>
 <script src="index.js"></script>
