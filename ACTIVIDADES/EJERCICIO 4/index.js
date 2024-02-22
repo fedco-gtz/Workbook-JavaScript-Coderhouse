@@ -71,3 +71,4 @@ function compararPrecios() {
 }
 
 document.getElementById('cantidad-empresas').addEventListener('change', crearInputsEmpresas);
+
