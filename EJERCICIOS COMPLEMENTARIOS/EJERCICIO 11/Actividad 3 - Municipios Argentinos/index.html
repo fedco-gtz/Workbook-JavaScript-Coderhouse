@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 3 - Municipios Argentinos</title>
 </head>
+
 <body>
     <h1>Actividad 3 - Municipios Argentinos</h1>
-    <p></p>
+    <p>Usando el select de provincias creado en la actividad 2, emplear el ID de la provincia seleccionada para
+        solicitar al API Georef los municipios que le pertenecen. Por ejemplo, si el id de la provincia elegida tiene
+        por valor ‘22’ de solicitud, es apis.datos.gob.ar/georef/api/municipios?provincia=22. Luego, por cada municipio
+        obtenido, generar de forma iterativa una estructura HTML con la información, e incluirla en el DOM</p>
+    <h1>Seleccionar Provincia y Municipio</h1>
+    <select id="provincias">
+        <option value="">Seleccione una provincia</option>
+    </select>
+    <select id="municipios">
+        <option value="">Seleccione un municipio</option>
+    </select>
+    <div id="municipiosLista"></div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
+
 </html>

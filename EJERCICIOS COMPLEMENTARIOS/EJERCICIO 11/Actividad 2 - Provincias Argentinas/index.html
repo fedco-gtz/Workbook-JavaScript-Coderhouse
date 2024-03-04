@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 2 - Provincias Argentinas</title>
 </head>
+
 <body>
     <h1>Actividad 2 - Provincias Argentinas</h1>
-    <p></p>
+    <p>Solicitar el listado de provincias de la Argentina a la API Georef, usando una pretición AJAX
+        (apis.datos.gob.ar/georef/api/provincias). Luego, generar un select donde los values de las etiquetas option
+        sean el ID de cada provincia obtenida. Por último, escuchar el evento change sobre el select, asegurando que la
+        función manejadora dispare una salida en el HTML, especificando la provincia seleccionada.</p>
+    <h1>Seleccionar Provincia</h1>
+    <select id="provincias">
+        <option value="">Seleccione una provincia</option>
+    </select>
+    <div id="provinciaSeleccionada"></div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
+
 </html>

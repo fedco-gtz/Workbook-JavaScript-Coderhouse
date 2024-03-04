@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 5 - SBuscar estudiantes</title>
+    <title>Actividad 5 - Buscar estudiantes</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <h1>Actividad 5 - SBuscar estudiantes</h1>
-    <p></p>
+    <h1>Actividad 5 - Buscar estudiantes</h1>
+    <p>Añadir una interfaz que permita introducir una palabra, con la intención de filtrar el array de estudiantes
+        obtenido desde la API en la actividad 4, usando la cadena ingresada. Luego, actualizar la interfaz, pero sólo
+        con la información de los estudiantes cuyo valor en la propiedad coincida con el valor ingresado en la caja de
+        búsqueda.</p>
+    <h1>Estudiantes de Hogwarts</h1>
+    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+    <div id="studentsList"></div>
+
+    <div id="studentInfo">
+        <h2>Información del estudiante</h2>
+        <p id="studentName"></p>
+        <p id="studentHouse"></p>
+        <p id="studentPatronus"></p>
+    </div>
 </body>
 <script src="index.js"></script>
+
 </html>

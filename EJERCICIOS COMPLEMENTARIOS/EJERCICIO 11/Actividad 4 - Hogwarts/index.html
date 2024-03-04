@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 4 - Hogwarts</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <h1>Actividad 4 - Hogwarts</h1>
-    <p></p>
+    <p>Solicitar el listado de estudiantes de hogwarts a la API Harry Potter, usando una pretición AJAX
+        (hp-api.herokuapp.com/api/characters/students). Luego, por cada publicación obtenida generar de forma iterativa
+        una estructura HTML con la información, e incluirla en el DOM. Por cada estudiante debe existir un botón
+        “Seleccionar”, que al ser presionado especifique la información del estudiante en una salida animada.</p>
+    <h1>Estudiantes de Hogwarts</h1>
+    <div id="studentsList"></div>
+
+    <div id="studentInfo">
+        <h2>Información del estudiante</h2>
+        <p id="studentName"></p>
+        <p id="studentHouse"></p>
+        <p id="studentPatronus"></p>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="index.js"></script>
 </html>
