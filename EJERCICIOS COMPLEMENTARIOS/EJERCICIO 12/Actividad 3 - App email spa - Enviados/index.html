@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 3 - App email spa - Enviados</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.email {
+  font-weight: bold;
+}
+
+.subject {
+  color: #666;
+}
+
+    </style>
 </head>
 <body>
     <h1>Actividad 3 - App email spa - Enviados</h1>
-    <p></p>
+    <p>Renderizar una interfaz que permita visualizar los emails enviados de la aplicación. Ya que el backend al que realizamos los envíos de emails (JSONPlaceholder) no almacena nuestros correos, el array de “emails” generado en la actividad 2 representa la colección de enviados. Si queremos que la información persista al cierre de la aplicación, podemos almacenar el array en localstorage.</p>
+    <div class="container">
+        <h1>Lista de Emails Enviados</h1>
+        <ul id="email-list"></ul>
+      </div>
 </body>
 <script src="index.js"></script>
 </html>
